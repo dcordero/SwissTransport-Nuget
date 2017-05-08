@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace SwissTransport.NetworkDTOs
 {
     [DataContract]
-    public class JourneyDTO
+    class JourneyDTO
     {
         [DataMember(Name = "name")]
         internal String Name { get; set; }

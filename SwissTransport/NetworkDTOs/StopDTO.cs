@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace SwissTransport.NetworkDTOs
 {
     [DataContract]
-    public class StopDTO
+    class StopDTO
     {
         [DataMember(Name = "station")]
         internal LocationDTO Station { get; set; }
