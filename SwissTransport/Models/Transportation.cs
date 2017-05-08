@@ -1,17 +1,30 @@
 ﻿using System;
 namespace SwissTransport
 {
+    /// <summary>
+    /// Type of transportation to filter.
+    /// </summary>
     public enum Transportation 
     { 
+        /// Transportatino type: IceTgvRj
         IceTgvRj, 
+        /// Transportatino type: EcIc
+        Ir,
+        /// Transportatino type: EcIc
         EcIc, 
-        Ir, 
-        ReD, 
+        /// Transportatino type: ReD
+        ReD,
+        /// Transportatino type: Ship 
         Ship, 
+        /// Transportatino type: SSNR
         SSNR, 
+        /// Transportatino type: Bus
         Bus,
+        /// Transportatino type: Cableway
         Cableway,
+        /// Transportatino type: ArzExt
         ArzExt,
+        /// Transportatino type: TramwayUnderground
         TramwayUnderground
     };
 

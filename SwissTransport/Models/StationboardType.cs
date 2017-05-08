@@ -1,10 +1,15 @@
 ﻿using System;
 namespace SwissTransport
 {
-
+    /// <summary>
+    /// Type of stationboard to filter.
+    /// </summary>
     public enum StationboardType
     {
+        /// Stationboard for departures
         Departure,
+        
+        /// Stationboard for arrivals
         Arrival
     };
 

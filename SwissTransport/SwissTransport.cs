@@ -8,15 +8,20 @@ using SwissTransport.Transformers;
 
 namespace SwissTransport
 {
+    /// <summary>
+    /// Public interface to interact with the framework
+    /// </summary>
     public class SwissTransportClient
     {
         private ApiClient ApiClient { get; set; }
 
+        /// Public constructor
         public SwissTransportClient()
         {
             ApiClient = new ApiClient();
         }
 
+        /// Returns the matching locations for the given parameters
         public async Task<List<Location>> GetLocations(string locationName)
         {
             var parameters = new Dictionary<string, object> 
@@ -28,6 +33,7 @@ namespace SwissTransport
             return LocationsDTOToModel.Transform(listOfLocationsDTO);
         }
 
+        /// Returns the next connections leaving from a specific location.
         public async Task<Stationboard> GetStationBoard(string stationName, 
                                                         string stationId = null, 
                                                         List<Transportation> transportations = null,
