@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SwissTransport.NET</id>
+    <version>1.0.0</version>
+    <authors>David Cordero</authors>
+    <owners>dcordero</owners>
+    <licenseUrl>https://github.com/dcordero/SwissTransport.NET/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dcordero/SwissTransport.NET</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Swiss Transport API .NET Framework</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>Swiss Transport</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="10.0.2"/>
+      <dependency id="System.Runtime.Serialization.Json" version="4.3.0"/>
+      <dependency id="System.Private.DataContractSerialization" version="4.1.2"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="SwissTransport/ApiClient.cs" target="content/SwissTransport"/>
+    <file src="SwissTransport/Models/Journey.cs" target="content/SwissTransport/Models"/>
+    <file src="SwissTransport/Models/Location.cs" target="content/SwissTransport/Models"/>
+    <file src="SwissTransport/Models/Stationboard.cs" target="content/SwissTransport/Models"/>
+    <file src="SwissTransport/Models/StationboardType.cs" target="content/SwissTransport/Models"/>
+    <file src="SwissTransport/Models/Stop.cs" target="content/SwissTransport/Models"/>
+    <file src="SwissTransport/Models/Transportation.cs" target="content/SwissTransport/Models"/>
+    <file src="SwissTransport/NetworkDTOs/JourneyDTO.cs" target="content/SwissTransport/NetworkDTOs"/>
+    <file src="SwissTransport/NetworkDTOs/ListOfLocationsDTO.cs" target="content/SwissTransport/NetworkDTOs"/>
+    <file src="SwissTransport/NetworkDTOs/LocationDTO.cs" target="content/SwissTransport/NetworkDTOs"/>
+    <file src="SwissTransport/NetworkDTOs/StationboardDTO.cs" target="content/SwissTransport/NetworkDTOs"/>
+    <file src="SwissTransport/NetworkDTOs/StopDTO.cs" target="content/SwissTransport/NetworkDTOs"/>
+    <file src="SwissTransport/SwissTransport.cs" target="content/SwissTransport"/>
+    <file src="SwissTransport/Transformers/JourneyDTOToModel.cs" target="content/SwissTransport/Transformers"/>
+    <file src="SwissTransport/Transformers/LocationsDTOToModel.cs" target="content/SwissTransport/Transformers"/>
+    <file src="SwissTransport/Transformers/StationboardDTOToModel.cs" target="content/SwissTransport/Transformers"/>
+    <file src="SwissTransport/Transformers/StopDTOToModel.cs" target="content/SwissTransport/Transformers"/>
+  </files>
+</package>
+
