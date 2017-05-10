@@ -7,6 +7,12 @@
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>David Cordero</Authors>
     <Description>Swiss Transport API .NET Framework</Description>
+    <PackageLicenseUrl>https://github.com/dcordero/SwissTransport.NET/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>David Cordero</Owners>
+    <PackageProjectUrl>https://github.com/dcordero/SwissTransport.NET</PackageProjectUrl>
+    <Summary>Swiss Transport API .NET Framework</Summary>
+    <Title>SwissTransport.NET</Title>
+    <PackageTags>Swiss, Transport</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
