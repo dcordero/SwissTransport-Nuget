@@ -1,5 +1,5 @@
 # SwissTransport.NET
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![NuGet](https://img.shields.io/nuget/v/SwissTransport.NET.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![NuGet](https://img.shields.io/nuget/v/SwissTransport.NET.svg)](https://www.nuget.org/packages/SwissTransport.NET)
 
 SwissTransport.NET offers a .NET Standard library for the [Swiss public transport API](https://transport.opendata.ch)
 
