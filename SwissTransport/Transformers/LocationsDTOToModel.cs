@@ -11,7 +11,8 @@ namespace SwissTransport.Transformers
         internal static List<Location> Transform(ListOfLocationsDTO listOfLocationsDTO)
         {
             List<Location> locations = new List<Location>();
-            foreach (LocationDTO locationDTO in listOfLocationsDTO.Locations) {
+            foreach (LocationDTO locationDTO in listOfLocationsDTO.Locations) 
+            {
                 locations.Add(Transform(locationDTO));
             }
             return locations;

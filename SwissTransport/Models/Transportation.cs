@@ -6,25 +6,25 @@ namespace SwissTransport
     /// </summary>
     public enum Transportation 
     { 
-        /// Transportatino type: IceTgvRj
+        /// Transportation type: IceTgvRj
         IceTgvRj, 
-        /// Transportatino type: EcIc
+        /// Transportation type: EcIc
         Ir,
-        /// Transportatino type: EcIc
+        /// Transportation type: EcIc
         EcIc, 
-        /// Transportatino type: ReD
+        /// Transportation type: ReD
         ReD,
-        /// Transportatino type: Ship 
+        /// Transportation type: Ship 
         Ship, 
-        /// Transportatino type: SSNR
+        /// Transportation type: SSNR
         SSNR, 
-        /// Transportatino type: Bus
+        /// Transportation type: Bus
         Bus,
-        /// Transportatino type: Cableway
+        /// Transportation type: Cableway
         Cableway,
-        /// Transportatino type: ArzExt
+        /// Transportation type: ArzExt
         ArzExt,
-        /// Transportatino type: TramwayUnderground
+        /// Transportation type: TramwayUnderground
         TramwayUnderground
     };
 
