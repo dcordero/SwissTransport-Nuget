@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Runtime.Serialization;
+using System.Runtime.CompilerServices;
 
+[assembly:InternalsVisibleTo("SwissTransport-Tests")]
 namespace SwissTransport.NetworkDTOs
 {
     [DataContract]
